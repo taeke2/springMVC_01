@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.care.member.Member;
 
 @Controller
-public class MyController {
+public class MyController03 {
 	@RequestMapping("index")
 	public String memberIndex() {
 		return "/member03/index";
