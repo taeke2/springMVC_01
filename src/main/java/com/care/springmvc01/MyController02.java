@@ -25,12 +25,12 @@ public class MyController02 {
 		return "/member02/result";
 	}
 
-	// ë©”ì†Œë“œ ë°©ì‹ì„ ëª…ì‹œí•˜ë©´ ëª…ì‹œí•œ ë©”ì†Œë“œë¥¼ ì°¾ì•„ê°€ì„œ ì‹¤í–‰í•œë‹¤.
+	// ¸Ş¼Òµå ¹æ½ÄÀ» ¸í½ÃÇÏ¸é ¸í½ÃÇÑ ¸Ş¼Òµå¸¦ Ã£¾Æ°¡¼­ ½ÇÇàÇÑ´Ù.
 	//@RequestMapping(value = "/member02/result", method = RequestMethod.POST)
 	@PostMapping("/member02/result")
 	public String memberResult02(@RequestParam("name") String name, @RequestParam("age") String age, Model model) {
-		model.addAttribute("name", name + " í¬ìŠ¤íŠ¸");
-		model.addAttribute("age", age + " í¬ìŠ¤íŠ¸");
+		model.addAttribute("name", name + " Æ÷½ºÆ®");
+		model.addAttribute("age", age + " Æ÷½ºÆ®");
 		return "member02/result";
 	}
 }
