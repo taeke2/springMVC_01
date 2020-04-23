@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Logout.jsp</title>
+<title>logout.jsp</title>
 </head>
 <body>
 	<h1>logout.jsp페이지</h1>
