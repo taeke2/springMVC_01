@@ -7,8 +7,6 @@
 <title>memberInfo.jsp</title>
 </head>
 <body>
-	id : ${id }<br>
-	pw : ${pw }<br>
 	name : ${name }<br>
 	age : ${age }<br>
 	addr : ${addr }<br>
