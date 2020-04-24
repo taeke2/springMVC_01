@@ -8,14 +8,14 @@
 </head>
 <body>
 	<h1>get 방식 전송</h1>
-	<form action="result">
+	<form action="result1">
 		이름<input type="text" name="name"><br>
 		나이<input type="text" name="age"><br>
 		<input type="submit" value="전송">
 	</form>
 	
 	<h1>post 방식 전송</h1>
-	<form action="result" method="post">
+	<form action="result1" method="post">
 		이름<input type="text" name="name"><br>
 		나이<input type="text" name="age"><br>
 		<input type="submit" value="전송">

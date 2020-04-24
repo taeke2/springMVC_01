@@ -9,17 +9,17 @@ import com.care.member.Member;
 
 @Controller
 public class MyController03 {
-	@RequestMapping("index")
+	@RequestMapping("index1")
 	public String memberIndex() {
 		return "/member03/index";
 	}
-	// ´Ù¸¥ ÆĞÅ°Áö¿¡ ÀÖ´Â ÄÁÆ®·Ñ·¯¸¦ »ç¿ëÇÏ·Á¸é ¼±¾ğÀ» ÇØ¾ßÇÏ´Âµ¥ ±× À§Ä¡´Â springÆú´õ¿¡ appServlet¾È¿¡ ÀÖ´Â
-	// servlet-context.xml¿¡ µé¾î°¡¼­ Á©¹Ø¿¡
-	// <context:component-scan base-package="com.care.springmvc01" /> ±âº»À¸·Î ÀÌ·¸°Ô µÇ¾îÀÖÀ½
-	// <context:component-scan base-package="com.care.springmvc02" /> µµ Ãß°¡ÇØÁà¾ß ÇÔ
+	// ë‹¤ë¥¸ íŒ¨í‚¤ì§€ì— ìˆëŠ” ì»¨íŠ¸ë¡¤ëŸ¬ë¥¼ ì‚¬ìš©í•˜ë ¤ë©´ ì„ ì–¸ì„ í•´ì•¼í•˜ëŠ”ë° ê·¸ ìœ„ì¹˜ëŠ” springí´ë”ì— appServletì•ˆì— ìˆëŠ”
+	// servlet-context.xmlì— ë“¤ì–´ê°€ì„œ ì ¤ë°‘ì—
+	// <context:component-scan base-package="com.care.springmvc01" /> ê¸°ë³¸ìœ¼ë¡œ ì´ë ‡ê²Œ ë˜ì–´ìˆìŒ
+	// <context:component-scan base-package="com.care.springmvc02" /> ë„ ì¶”ê°€í•´ì¤˜ì•¼ í•¨
 
-	// ¿À·ù³µ¾ú´Âµ¥ ¿À·ù³­ ÀÌÀ¯ : ÄÁÆ®·Ñ·¯°¡ ÀÌ¸§ÀÌ °ãÃÄ¼­¾ÈµÊ.
-	// ÆĞÅ°Áö°¡ ´Ş¶óµµ Å¬·¡½º ÀÌ¸§ÀÌ ¶È°°À¸¸é ÄÁÆ®·Ñ·¯°¡ °´Ã¼·Î¸¸µé¾îÁö´Âµ¥ ÀÌ¸§ÀÌ Áßº¹µÇ¸é ¾ÈµÊ
+	// ì˜¤ë¥˜ë‚¬ì—ˆëŠ”ë° ì˜¤ë¥˜ë‚œ ì´ìœ  : ì»¨íŠ¸ë¡¤ëŸ¬ê°€ ì´ë¦„ì´ ê²¹ì³ì„œì•ˆë¨.
+	// íŒ¨í‚¤ì§€ê°€ ë‹¬ë¼ë„ í´ë˜ìŠ¤ ì´ë¦„ì´ ë˜‘ê°™ìœ¼ë©´ ì»¨íŠ¸ë¡¤ëŸ¬ê°€ ê°ì²´ë¡œë§Œë“¤ì–´ì§€ëŠ”ë° ì´ë¦„ì´ ì¤‘ë³µë˜ë©´ ì•ˆë¨
 
 	/*
 	@RequestMapping("result")
@@ -33,7 +33,7 @@ public class MyController03 {
 		return "/member03/result";
 	}
 	*/
-	@RequestMapping("result")
+	@RequestMapping("result1")
 	public String result(Member member, Model model) {
 		System.out.println("name :" + member.getName() );
 		System.out.println("age :" + member.getAge() );

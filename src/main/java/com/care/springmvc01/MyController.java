@@ -15,16 +15,16 @@ public class MyController {
 	
 	@GetMapping(value="/logout")
 	public String memberLogout(Model model) {
-		model.addAttribute("logout","·Î±×¾Æ¿ô");
-		//µ¥ÀÌÅÍº£ÀÌ½º ¿¬µ¿ ÈÄ °á°ú°ª °¡Á®¿È
-		//±×·³ Model¿¡ ´ã¾Æ¼­ ³Ñ¾î°£´Ù
+		model.addAttribute("logout","ë¡œê·¸ì•„ì›ƒ");
+		//ë°ì´í„°ë² ì´ìŠ¤ ì—°ë™ í›„ ê²°ê³¼ê°’ ê°€ì ¸ì˜´
+		//ê·¸ëŸ¼ Modelì— ë‹´ì•„ì„œ ë„˜ì–´ê°„ë‹¤
 		return "/member/logout";
 	}
 	
 	@RequestMapping("login")
 	public ModelAndView memberLogin() {
 		ModelAndView mv = new ModelAndView();
-		mv.addObject("login","·Î±×ÀÎ ¼º°ø!!!");
+		mv.addObject("login","ë¡œê·¸ì¸ ì„±ê³µ!!!");
 		mv.setViewName("member/login");
 		return mv;
 	}
