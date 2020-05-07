@@ -4,9 +4,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>index.jsp</title>
+<title>result.jsp</title>
 </head>
-<body>index.jsp
-	<h1>기본 페이지 입니다.</h1>
+<body>
+	<h1>객체로 넘어온 값</h1>
+	name : ${mem.name }<br>
+	age : ${mem.age }<br>
+	addr : ${mem.addr }<br>
 </body>
 </html>

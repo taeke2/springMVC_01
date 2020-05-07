@@ -4,9 +4,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>index.jsp</title>
+<title>rsOK.jsp</title>
 </head>
-<body>index.jsp
-	<h1>기본 페이지 입니다.</h1>
+<body>
+	<h1>rsOK 성공입니다.</h1>
+	${name } 오늘 하루도 즐거운 하루되세요!!!
 </body>
 </html>

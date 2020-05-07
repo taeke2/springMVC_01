@@ -21,8 +21,12 @@
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
 	
+	<!--
 	<context:component-scan base-package="com.care.springmvc01" />
-	
-	
+	<context:component-scan base-package="com.care.springmvc02" />
+	<context:component-scan base-package="com.care.springmvc03" />
+	<context:component-scan base-package="com.care.mvc_ex04" />
+	-->
+	<context:component-scan base-package="com.care.*" />
 	
 </beans:beans>

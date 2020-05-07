@@ -6,7 +6,12 @@
 <meta charset="UTF-8">
 <title>index.jsp</title>
 </head>
-<body>index.jsp
-	<h1>기본 페이지 입니다.</h1>
+<body>
+	<img src="resources/test.jpg"/>
+	
+	<form action="result">
+		<input type="text" name="id"><br>
+		<input type="submit" value="전송"><br>
+	</form>
 </body>
 </html>

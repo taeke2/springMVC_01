@@ -4,9 +4,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>index.jsp</title>
+<title>memberInfo.jsp</title>
 </head>
-<body>index.jsp
-	<h1>기본 페이지 입니다.</h1>
+<body>
+	name : ${name }<br>
+	age : ${age }<br>
+	addr : ${addr }<br>
 </body>
 </html>
